@@ -16,7 +16,9 @@ public class BetterThanAverage {
         double avg = sum/(double) (classPoints.length + 1);
         return  avg < yourPoints;
 
-//        return (Arrays.stream(classPoints).sum() + yourPoints)/classPoints.length + 1 <= yourPoints;
+    }
 
+    public static boolean betterThanAvg (int[] classPoints, int yourPoints) {
+        return (double) (Arrays.stream(classPoints).sum() + yourPoints)/classPoints.length +1 < yourPoints;
     }
 }
