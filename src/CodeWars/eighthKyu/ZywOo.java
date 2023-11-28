@@ -1,7 +1,9 @@
 package CodeWars.eighthKyu;
 
 import java.util.Arrays;
-
+/*
+How to get an array multiplied by a parameter and return the new array with the same length.
+ */
 public class ZywOo {
     public static void main(String[] args) {
 
