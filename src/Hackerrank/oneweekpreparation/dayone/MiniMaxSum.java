@@ -22,6 +22,7 @@ public class MiniMaxSum {
         for(Integer i: arr) {
             bd =  bd.add(BigInteger.valueOf(i));
         }
-        System.out.println(bd);
+
+        System.out.println(bd.subtract(BigInteger.valueOf(arr.get(4))) + " " + bd.subtract(BigInteger.valueOf(arr.get(0))));
     }
 }
