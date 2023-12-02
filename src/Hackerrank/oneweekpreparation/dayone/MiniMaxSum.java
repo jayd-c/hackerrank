@@ -1,4 +1,4 @@
-package Hackerrank.oneweekpreparation;
+package Hackerrank.oneweekpreparation.dayone;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
