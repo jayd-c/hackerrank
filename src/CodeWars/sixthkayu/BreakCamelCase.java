@@ -16,7 +16,7 @@ public class BreakCamelCase {
                 } else {
                     sb.append(c);
                 }
-                
+
             }
         }
         return sb.toString();
